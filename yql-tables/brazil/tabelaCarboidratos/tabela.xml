@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table xmlns="http://query.yahooapis.com/v1/schema/table.xsd">
+  <meta>
+    <author>Raphael Adrien &lt;raphael.adrien@gmail.com&gt;</author>
+    <description>Tabela de Carboidratos</description>
+    <sampleQuery>SELECT * FROM {table}</sampleQuery>
+  </meta>
+
+  <bindings>
+    <select itemPath="tabela.alimentos" produces="XML">
+      <urls>
+        <url>http://www.r3ti.com.br/tabela/tabelaCarboidratos.xml</url>
+      </urls>
+    </select>
+  </bindings>
+</table>
